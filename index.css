@@ -1,0 +1,77 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Mulish', sans-serif;
+  background-color: #FF003B;
+}
+#root{
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.container{
+  width:500px;
+  background-color: #fff;
+  border-radius:10px;
+  align-self: center;
+  padding:1rem;
+}
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+.add-button{
+  width: 70px;
+  padding: 0.3rem;
+  border-radius:2px;
+  background-color:forestgreen;
+  color: #fff;
+  border: none;
+}
+.close-button{
+  width: 70px;
+  padding: 0.3rem;
+  border-radius:2px;
+  background-color:firebrick;
+  color: #fff;
+  border: none;
+}
+.close-button, .add-button:hover{
+  cursor: pointer;
+}
+form{
+  width: 80%;
+  margin: 20px auto;
+}
+table{
+  width: 100%;
+}
+label{
+  font-size:1.2rem;
+  font-weight:bold;
+}
+input{
+  width: 100%;
+}
+button.onsubmit{
+  width:80%;
+  background:black;
+  text-align:center;
+  color:white;
+  padding: 0.5rem 0;
+  margin: 20px 10%;
+}
+button.onsubmit:hover{
+  cursor: pointer;
+}
+.task-style{
+  background-color: #EEEEEE;
+  padding:0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
